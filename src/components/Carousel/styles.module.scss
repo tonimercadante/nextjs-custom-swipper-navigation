@@ -1,0 +1,29 @@
+.container {
+    position: relative;
+    width: 100%;
+    background-color: darkblue;
+}
+
+.mySwiper {
+    width: 50%;
+    position: unset;
+    text-align: center;
+    background-color: yellow;
+}
+
+
+.next {
+    z-index: 9999;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.prev {
+    z-index: 9999;
+    position: absolute;
+    background-color: aqua;
+    left: 0;
+    top: 0;
+}
